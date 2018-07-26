@@ -53,7 +53,7 @@ on your system.
 Making the `msw` command available on your PATH
 -----------------------------------------------
 
-If you are using Python version 3.4 and you enabled the "Add Python.exe to Path” feature
+If you are using Python version 3.4 and you enabled the "Add Python.exe to Pathâ feature
 during installation (off by default), you can skip this section.
 
 Generaly, when running Python, or python scripts from the command line you would need to inlcude the

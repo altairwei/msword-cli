@@ -11,6 +11,7 @@ VERSION = '0.1'
 
 try:
     WORD = com.gencache.EnsureDispatch('Word.Application')
+    #WORD = com.Dispatch('Word.Application')
     TEMPLATE_DIR = WORD.Options.DefaultFilePath(C.wdUserTemplatesPath)
 except com_error as e:
     raise click.ClickException(e.excepinfo[2])
